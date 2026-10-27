@@ -1,0 +1,130 @@
+/* Definição das fontes utilizadas no projeto */
+@font-face {
+    font-family: 'Unbounded';
+    src: url("../Fonts/Unbounded-Bold.ttf")
+    format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url("../Fonts/Poppins-regular.ttf")
+    format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+/* Cabeçalho */
+body {
+        background-color: #0E1014;
+        font-family: 'Inconsolata', monospace;
+}
+/* Corpo */
+header {
+        display: block;
+        margin: 75px 1350px 60px 360px;
+    
+}
+/* Título */
+h1 {
+        font-size: 54px;
+        color: #FFFFFF;
+        font-family: 'Unbounded', sans-serif;
+        line-height: 50px;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 169px 564px 775px 564px
+}
+span {
+        color: #8233E8;
+}
+/* Parágrafo */
+p {
+        font-size: 18px;
+        color: #FFFFFF;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        margin-top: 24px;
+}
+/* Botão */
+.btn {
+        font-size: 18px;
+        color: white;
+        background-color: #8233E8;
+        text-decoration: none;
+        border-radius: 36px;
+        padding: 10px 30px;
+        display: block;
+        width: 340px;
+        height: 66px;
+        text-align: center;
+        line-height: 50px;
+        margin: 40px auto;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+
+}
+
+.btn:hover {
+        background-color: #8233E8;
+}
+button {
+        font-size: 18px;
+        color: white;
+        background-color: rebeccapurple;
+        padding: 10px 30px;
+        text-decoration: none;
+        border-radius: 10px;
+        padding-left: 0px;
+        padding-right: 30px;
+}
+/* Imagem */
+img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        margin: 40px auto;
+}
+
+@media(max-width: 768px) {
+
+        header {
+        margin: 65px 499px 0 60px;
+    
+}
+        p {
+                width: 748px;
+                
+        }
+
+}
+@media(max-width: 375px) {
+
+        header {
+                margin: 32px 149px 0 16px;
+        }
+
+        h1 {
+                font-size: 40px;
+                line-height: 44px;
+                margin: 60px 17px 24px 17px
+                text-align: center;
+        }
+        
+        p {
+                font-size: 20px;
+                width: 340px
+        }
+
+}
